@@ -63,7 +63,7 @@ const RatingComponent = () => {
           value={rating}
           maxValue={5}
           text={`${rating.toFixed(1)}/5`}
-          styles={buildStyles({
+          styles={buildStyles({   // for rotation bar-need to study
             pathColor: "green",
             textColor: "black",
             trailColor: "light-grey",
