@@ -1,0 +1,36 @@
+
+  .rating-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+  }
+  .progress-bar-container {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+  }
+  .rating-input {
+    margin-top: 20px;
+    padding: 5px;
+    width: 55%;
+    border-color: gray;
+    border-style: solid;
+  }
+  .stars-container {
+    margin-top: 10px;
+    
+  }
+  .star {
+    font-size: 24px;
+    color: lightgray;
+  }
+  .star.filled {
+    color: gold;
+  }
+  .star.half-filled {
+    background: linear-gradient(90deg, gold 50%, lightgray 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
