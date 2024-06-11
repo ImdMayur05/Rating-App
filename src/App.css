@@ -8,15 +8,16 @@
   }
   .progress-bar-container {
     width: 150px;
-    height: 150px;
+    height: 75px;
     margin: 20px auto;
+    overflow: hidden;
   }
   .rating-input {
     margin-top: 20px;
     padding: 5px;
-    width: 55%;
-    border-color: gray;
-    border-style: solid;
+    width: 100%;
+    /* border-color: gray;
+    border-style: solid; */
   }
   .stars-container {
     margin-top: 10px;
